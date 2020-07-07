@@ -21,7 +21,7 @@ RUN docker-php-ext-install \
     zip \
     gd \
     pdo_mysql
-    
+
 # Add mysql driver required for wp-browser
 RUN docker-php-ext-install mysqli
 

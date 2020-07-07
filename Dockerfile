@@ -1,4 +1,4 @@
-FROM php:7.1-cli
+FROM php:7.4-cli
 
 MAINTAINER dxw
 
@@ -11,6 +11,7 @@ RUN apt-get update && \
             default-mysql-client \
             sudo less \
             libpng-dev \
+            libzip-dev \
         --no-install-recommends && \
         apt-get clean && \
         rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

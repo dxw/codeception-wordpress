@@ -44,6 +44,6 @@ RUN mv wp-cli.phar /usr/local/bin/wp
 # Prepare application
 WORKDIR /repo
 
-RUN composer global require hirak/prestissimo
+RUN composer global require hirak/prestissimo="0.3.10"
 
-RUN composer require lucatume/wp-browser "^2.1.4"
+RUN composer require lucatume/wp-browser="2.1.4"

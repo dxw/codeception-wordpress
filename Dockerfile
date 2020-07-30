@@ -8,7 +8,7 @@ RUN apt-get update && \
             git \
             zlib1g-dev \
             libssl-dev \
-            mysql-client \
+            mariadb-client \
             sudo less \
             libpng-dev \
         --no-install-recommends && \
